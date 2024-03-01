@@ -24,7 +24,7 @@ const Home = () => {
 
   return (
     <Template>
-      <div className="flex flex-col w-full min-h-[100dvh] container max-w-[1200px]">
+      <div className="flex flex-col w-full min-h-[100dvh] container max-w-[1200px] overflow-x-hidden">
         <Header />
         <div className="px-8 flex-1 flex flex-col">
           <div className="flex-1 pb-6 flex flex-col md:flex-row relative">

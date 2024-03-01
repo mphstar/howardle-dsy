@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const LeftHeader = () => {
   return (
-    <div data-aos="fade-right" data-aos-duration="1000" className="md:flex flex-row hidden items-center">
+    <div data-aos="zoom-in" data-aos-duration="1000" className="md:flex flex-row hidden items-center">
       <div className="bg-[#080A1E] z-[4] h-[45px] w-[45px] rounded-full flex justify-center items-center">
         <Image
           src={"/assets/icons/ic_search.svg"}
